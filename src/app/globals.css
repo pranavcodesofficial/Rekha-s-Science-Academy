@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --rsa-navy: #1b2a4a;
+  --rsa-gold: #c8a84b;
+  --rsa-white: #ffffff;
+  --rsa-soft-gray: #f5f7fb;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--rsa-white);
+  color: var(--rsa-navy);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+a,
+button {
+  transition: all 200ms ease;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
