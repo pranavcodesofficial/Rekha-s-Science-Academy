@@ -441,7 +441,7 @@ How did you hear about us?: ${source}`;
             <h3 className="text-2xl font-bold">Visit Our Academy</h3>
             <div className="mt-6 space-y-4 text-slate-700">
               <p>📍 KK Nagar, Chennai, Tamil Nadu</p>
-              <p>📞 +91 98765 43210</p>
+              <p>📞 +91 94450 62045</p>
               <p>🕘 Monday to Saturday, 9:00 AM to 7:00 PM</p>
             </div>
           </div>
